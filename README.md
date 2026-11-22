@@ -408,10 +408,8 @@ Global-Electronics-Retailer/
 |--Project_Report.pdf
 |
 |--README.md
+```
 ---
-
-
-
 # 💡 Business Value
 
 This project demonstrates how raw transactional data can be transformed into a structured business intelligence solution.
@@ -428,6 +426,6 @@ The final solution enables decision-makers to:
 
 The project therefore combines **data preparation, SQL analysis, business requirements, data modeling, KPI development and Power BI visualization** into one end-to-end analytics solution.
 
-
+---
 
 
