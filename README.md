@@ -14,7 +14,7 @@ The project was developed based on defined **Business Requirements (BRD)** and *
 
 ## 🎯 Business Objective
 
-The main objective of this project is to provide management with a centralized analytical solution for understanding global business performance.
+The main objective of this project is to understand global business performance.
 
 The analysis focuses on:
 
