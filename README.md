@@ -27,8 +27,6 @@ The analysis focuses on:
 * Measuring delivery performance and identifying delayed orders
 * Providing interactive filtering for business users
 
-The project addresses the business requirements defined for financial reporting, product analysis, channel comparison, store analysis, customer analysis, delivery tracking, and interactive dashboard filtering.
-
 ---
 
 ## 🗂️ Dataset
@@ -372,25 +370,6 @@ These insights support management decisions related to sales growth, product str
 
 ---
 
-# 🎯 Business Requirements Covered
-
-The project addresses the following major business requirements:
-
-| Requirement                                       | Project Coverage                      |
-| ------------------------------------------------- | ------------------------------------- |
-| BR-001: Global Revenue & Sales Tracking           | Revenue, orders and sales trends      |
-| BR-002: Profitability Analysis                    | Revenue, cost, profit and margin      |
-| BR-003: Product & Category Drill-Down             | Category → Subcategory → Product      |
-| BR-004: Online vs. Physical Store                 | Channel comparison                    |
-| BR-005: Store & Regional Analysis                 | Store, location, size and performance |
-| BR-006: Customer Demographics & Lifetime Analysis | Age, gender and spending              |
-| BR-007: Order Delivery Tracking                   | Delivery duration and delays          |
-| BR-008: Interactive Dynamic Filtering             | Dashboard slicers and cross-filtering |
-
-The BRD defines these eight business requirements as the core scope of the BI solution.
-
----
-
 # 📁 Project Structure
 
 ```text
@@ -429,23 +408,6 @@ Global-Electronics-Retailer/
 |--Project_Report.pdf
 |
 |--README.md   
-```
-
-# ✅ Validation & Acceptance
-
-The project was validated against the defined functional requirements.
-
-Key validation areas include:
-
-* Financial metrics calculated in Power BI match database/SQL calculations
-* Revenue, Cost, Net Profit and Profit Margin are calculated consistently
-* Online filtering correctly identifies `StoreKey = 0`
-* Physical-store analysis uses `StoreKey > 0`
-* Invalid delivery records are excluded from delivery calculations
-* Dashboard filters dynamically affect relevant visualizations
-* Product, category, store, region and channel analysis can be explored interactively
-
-The FRD specifies 100% financial accuracy between dashboard calculations and verified database results as an acceptance criterion.
 
 ---
 
